@@ -25,11 +25,11 @@ export default function NavActions() {
         </a>
       ) : submitted ? (
         <button
-          onClick={() => navigate("/book-call")}
-          className="btn-shimmer text-white text-sm font-semibold px-5 py-2.5 rounded-xl shadow hover:scale-105 transition-transform duration-150"
-        >
-          Book Your Call →
-        </button>
+              onClick={() => navigate("/book-call")}
+              className="btn-shimmer text-white text-sm font-semibold px-5 py-2.5 rounded-xl shadow hover:scale-105 transition-transform duration-150"
+            >
+              Book Your Call →
+            </button>
       ) : (
         <button
           onClick={() => navigate("/")}

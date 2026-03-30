@@ -50,11 +50,11 @@ export default function BookCallCTA({ spotsLeft }) {
           </div>
 
           <button
-            onClick={() => navigate("/book-call")}
-            className="btn-shimmer text-white font-bold text-lg px-8 py-4 rounded-2xl hover:scale-105 transition-transform shadow-lg shadow-black/30 w-full sm:w-auto"
-          >
-            Book My Free 30-Min Call →
-          </button>
+                onClick={() => navigate("/book-call")}
+                className="btn-shimmer text-white font-bold text-lg px-8 py-4 rounded-2xl hover:scale-105 transition-transform shadow-lg shadow-black/30 w-full sm:w-auto"
+              >
+                Book My Free 30-Min Call →
+              </button>
 
           <p className="text-secondary/40 text-sm mt-3">
             Free. No obligation. Spots fill by Thursday each week.

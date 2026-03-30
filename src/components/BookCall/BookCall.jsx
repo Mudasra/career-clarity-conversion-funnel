@@ -1,12 +1,12 @@
 import { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { confirmBooking } from "../redux/slices/bookingSlice";
-import { submitBookingToCRM, trackEvent } from "../utils/api";
-import QualificationForm from "./QualificationForm";
 import PickSlotStep from "./PickSlotStep";
 import BookingConfirmedView from "./BookingConfirmedView";
 import ConfirmationModal from "./ConfirmationModal";
 import { generateSlots } from "./generateSlots";
+import { confirmBooking } from "../../redux/slices/bookingSlice";
+import { submitBookingToCRM, trackEvent } from "../../utils/api";
+import QualificationForm from "../QualificationForm/QualificationForm";
 
 const slots = generateSlots();
 
