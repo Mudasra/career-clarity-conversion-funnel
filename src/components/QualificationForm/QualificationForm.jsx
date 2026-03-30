@@ -27,7 +27,6 @@ export default function QualificationForm({ onSubmit: onSuccess }) {
 
       <div onSubmit={handleSubmit(onSubmit)}>
         <div className="space-y-6">
-          {/* Current role */}
           <div>
             <label className="block text-sm font-semibold text-primary mb-2">
               What's your current job title / field?{" "}
@@ -48,13 +47,11 @@ export default function QualificationForm({ onSubmit: onSuccess }) {
             )}
           </div>
 
-          {/* Biggest challenge */}
           <QualificationChallengeField
             register={register}
             error={errors.biggestChallenge}
           />
 
-          {/* Goal */}
           <div>
             <label className="block text-sm font-semibold text-primary mb-2">
               What does success look like for you in 90 days?{" "}
@@ -77,7 +74,6 @@ export default function QualificationForm({ onSubmit: onSuccess }) {
             )}
           </div>
 
-          {/* Timeline */}
           <QualificationTimelineField register={register} />
 
           <button
