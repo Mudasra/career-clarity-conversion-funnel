@@ -6,7 +6,7 @@ export default function NavLogo() {
   return (
     <button
       onClick={() => navigate("/")}
-      className="flex items-center gap-2.5 group"
+      className="flex cursor-pointer items-center gap-2.5 group"
     >
       <div
         className="w-8 h-8 rounded-lg flex items-center justify-center text-sm font-bold text-white"

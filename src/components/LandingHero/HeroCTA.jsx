@@ -3,7 +3,7 @@ export default function HeroCTA({ onCTAClick }) {
     <div data-anim className="anim-delay-5">
       <button
         onClick={onCTAClick}
-        className="btn-shimmer text-white font-bold text-lg px-8 py-4 rounded-2xl shadow-lg shadow-accent/30 hover:scale-105 transition-transform duration-200 w-full sm:w-auto"
+        className="btn-shimmer cursor-pointer text-white font-bold text-lg px-8 py-4 rounded-2xl shadow-lg shadow-accent/30 hover:scale-105 transition-transform duration-200 w-full sm:w-auto"
       >
         Get My Free 7-Day Plan →
       </button>

@@ -83,7 +83,7 @@ export default function QualificationForm({ onSubmit: onSuccess }) {
           <button
             type="button"
             onClick={handleSubmit(onSubmit)}
-            className="w-full btn-shimmer text-white font-bold text-base py-4 rounded-xl hover:scale-[1.02] active:scale-[0.98] transition-transform duration-200 shadow-lg"
+            className="w-full cursor-pointer btn-shimmer text-white font-bold text-base py-4 rounded-xl hover:scale-[1.02] active:scale-[0.98] transition-transform duration-200 shadow-lg"
           >
             Continue to Booking →
           </button>

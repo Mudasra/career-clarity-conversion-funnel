@@ -51,7 +51,7 @@ export default function BookCallCTA({ spotsLeft }) {
 
           <button
                 onClick={() => navigate("/book-call")}
-                className="btn-shimmer text-white font-bold text-lg px-8 py-4 rounded-2xl hover:scale-105 transition-transform shadow-lg shadow-black/30 w-full sm:w-auto"
+                className="btn-shimmer cursor-pointer text-white font-bold text-lg px-8 py-4 rounded-2xl hover:scale-105 transition-transform shadow-lg shadow-black/30 w-full sm:w-auto"
               >
                 Book My Free 30-Min Call →
               </button>

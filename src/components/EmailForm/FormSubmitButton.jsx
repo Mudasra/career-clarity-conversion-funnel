@@ -4,7 +4,7 @@ export default function FormSubmitButton({ loading, onSubmit }) {
       type="button"
       onClick={onSubmit}
       disabled={loading}
-      className="w-full btn-shimmer text-white font-bold text-lg py-4 rounded-xl shadow-lg hover:scale-[1.02] active:scale-[0.98] transition-transform duration-200 disabled:opacity-70 disabled:cursor-not-allowed mt-2"
+      className="w-full cursor-pointer btn-shimmer text-white font-bold text-lg py-4 rounded-xl shadow-lg hover:scale-[1.02] active:scale-[0.98] transition-transform duration-200 disabled:opacity-70 disabled:cursor-not-allowed mt-2"
     >
       {loading ? (
         <span className="flex items-center justify-center gap-2">
