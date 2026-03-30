@@ -1,9 +1,9 @@
-import React from 'react'
+import ThankYou from "../components/ThankYouPage/ThankYou";
 
-const ThankYouPage = () => {
+export default function ThankYouPage () {
   return (
-    <div>ThankYouPage</div>
+    <div>
+      <ThankYou />
+    </div>
   )
 }
-
-export default ThankYouPage
