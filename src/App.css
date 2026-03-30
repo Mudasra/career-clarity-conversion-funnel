@@ -13,6 +13,78 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+@theme {
+  --color-primary: #004e64;
+  --color-secondary: #e0e5e9;
+  --color-accent: #00a8c8;
+  --color-dark: #001f29;
+  --color-mid: #006d8a;
+  --color-light: #f0f4f7;
+  --color-warm: #ffd166;
+  --color-success: #06d6a0;
+
+  --font-display: "Playfair Display", Georgia, serif;
+  --font-sans: "DM Sans", system-ui, sans-serif;
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-12px); }
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+.fade-up {
+  animation: fadeUp 0.7s ease forwards;
+}
+
+.fade-in {
+  animation: fadeIn 0.5s ease forwards;
+}
+
+.float {
+  animation: float 6s ease-in-out infinite;
+}
+
+.slide-in {
+  animation: slideIn 0.6s ease forwards;
+}
+
+.shimmer {
+  animation: shimmer 2.5s infinite;
+  background-size: 200% 100%;
+}
+
 .font-display { font-family: 'Playfair Display', Georgia, serif; }
 
 .anim-delay-1 { animation-delay: 0.1s; opacity: 0; }
