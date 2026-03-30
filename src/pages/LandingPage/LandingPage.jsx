@@ -1,9 +1,9 @@
-import React from 'react'
+import LandingHero from "./LandingHero/LandingHero";
 
-const LandingPage = () => {
-  return (
-    <div>LandingPage</div>
-  )
+export default function LandingPage () {
+    return (
+        <div>
+            <LandingHero />
+        </div>
+    )
 }
-
-export default LandingPage

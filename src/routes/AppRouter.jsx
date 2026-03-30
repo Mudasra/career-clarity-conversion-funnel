@@ -1,7 +1,7 @@
 import { BrowserRouter, Route, Routes } from "react-router";
 import Navbar from "../components/Navbar/Navbar";
-import LandingPage from "../pages/LandingPage/LandingPage";
 import ThankYouPage from "../pages/ThankYouPage/ThankYouPage";
+import LandingPage from "../pages/LandingPage/LandingPage";
 
 export default function AppRouter () {
     return (
