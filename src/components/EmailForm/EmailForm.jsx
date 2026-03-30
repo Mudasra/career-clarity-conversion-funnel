@@ -6,8 +6,8 @@ import FormDecorations from "./FormDecorations";
 import FormSectionHeader from "./FormSectionHeader";
 import FormCard from "./FormCard";
 import ToastNotification from "./ToastNotification";
-import { setLeadData } from "../../redux/slices/LeadFormSlice";
 import { submitLeadToCRM, trackEvent } from "../../utils/api";
+import { setLeadData } from "../../redux/slices/leadFormSlice";
 
 export default function EmailForm() {
   const { register, handleSubmit, formState: { errors } } = useForm();
