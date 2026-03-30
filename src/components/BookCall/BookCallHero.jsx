@@ -24,8 +24,8 @@ export default function BookCallHero({ name }) {
         </h1>
         <p className="text-secondary/70 text-base max-w-lg mx-auto">
           {name
-            ? `${name}, you've got the clarity plan — now let's turn it into your exact next move.`
-            : "You've got the clarity plan — now let's turn it into your exact next move."}
+            ? `${name}, you've got the clarity plan, now let's turn it into your exact next move.`
+            : "You've got the clarity plan, now let's turn it into your exact next move."}
         </p>
       </div>
     </div>

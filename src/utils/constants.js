@@ -2,7 +2,7 @@ export const emailSequence = [
   {
     day: "Today",
     subject: "📬 Your 7-Day Clarity Plan is inside",
-    preview: "Start with Day 1 — the Career Direction Audit. Takes 20 minutes.",
+    preview: "Start with Day 1, the Career Direction Audit. Takes 20 minutes.",
     icon: "📬",
   },
   {

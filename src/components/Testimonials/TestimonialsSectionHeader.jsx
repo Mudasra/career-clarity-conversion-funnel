@@ -11,7 +11,7 @@ export default function TestimonialsSectionHeader() {
         What Happens When You Get Clarity
       </h2>
       <p className="text-gray-500 text-lg max-w-2xl mx-auto">
-        These aren't overnight miracles — they're the results of professionals who finally had a
+        These aren't overnight miracles, they're the results of professionals who finally had a
         clear direction and the confidence to act on it.
       </p>
     </div>

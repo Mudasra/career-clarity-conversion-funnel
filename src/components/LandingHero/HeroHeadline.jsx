@@ -17,7 +17,7 @@ export default function HeroHeadline() {
           style={{ background: "linear-gradient(90deg, #00a8c8, #ffd166)" }}
         />
       </span>{" "}
-      — Without Risking Your Income
+      , Without Risking Your Income
     </h1>
   );
 }

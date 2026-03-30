@@ -44,7 +44,7 @@ export default function ConfirmationModal({ booking, onClose }) {
 
         <p className="text-gray-400 text-sm mb-6">
           A calendar invite + reminder will be sent to your email. Come prepared with your
-          biggest challenge — we'll dive straight in.
+          biggest challenge, we'll dive straight in.
         </p>
 
         <div className="text-xs text-gray-300 bg-secondary/20 rounded-xl px-4 py-3">

@@ -24,7 +24,7 @@ export default function BookCallCTA({ spotsLeft }) {
           </div>
 
           <h2 className="font-display text-white text-3xl md:text-4xl font-bold leading-tight mb-4">
-            Don't Stop at Clarity —<br />
+            Don't Stop at Clarity ,<br />
             <span className="text-accent">Turn It Into Action</span>
           </h2>
 

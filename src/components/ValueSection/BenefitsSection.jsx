@@ -5,22 +5,22 @@ const benefits = [
   {
     icon: "🎯",
     title: "Day 1: Career Direction Audit",
-    desc: "A structured 20-minute exercise that reveals exactly where you are — and where you're actually capable of going.",
+    desc: "A structured 20-minute exercise that reveals exactly where you are, and where you're actually capable of going.",
   },
   {
     icon: "💡",
     title: "Day 2–3: Hidden Strength Identifier",
-    desc: "Uncover the skills and experiences you've been undervaluing — the ones hiring managers are actively paying premium for.",
+    desc: "Uncover the skills and experiences you've been undervaluing, the ones hiring managers are actively paying premium for.",
   },
   {
     icon: "📊",
     title: "Day 4–5: Opportunity Gap Analysis",
-    desc: "Map the gap between your current role and your ideal role — with a clear bridge that doesn't require starting over.",
+    desc: "Map the gap between your current role and your ideal role, with a clear bridge that doesn't require starting over.",
   },
   {
     icon: "🗺️",
     title: "Day 6–7: Your Clear Next Move",
-    desc: "Walk away with 1–3 concrete, actionable next steps tailored to your situation. Not generic advice — your move.",
+    desc: "Walk away with 1–3 concrete, actionable next steps tailored to your situation. Not generic advice, your move.",
   },
   {
     icon: "💬",

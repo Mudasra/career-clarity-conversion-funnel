@@ -39,7 +39,7 @@ export default function FunnelSequenceBanner() {
           )}
         </div>
         <p className="text-secondary/50 text-sm max-w-lg mx-auto">
-          You'll receive 3 emails over 7 days — each with a new exercise and insight. No fluff, no filler.
+          You'll receive 3 emails over 7 days, each with a new exercise and insight. No fluff, no filler.
         </p>
       </div>
     </div>

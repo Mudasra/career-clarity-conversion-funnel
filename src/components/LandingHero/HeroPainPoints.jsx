@@ -1,5 +1,5 @@
 const painPoints = [
-  "😔 Wake up dreading Monday — every single week",
+  "😔 Wake up dreading Monday, every single week",
   "💸 You're good at your job but still underpaid and overlooked",
   "🌀 You want to make a move but fear making the wrong one",
 ];

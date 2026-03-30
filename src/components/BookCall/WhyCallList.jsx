@@ -12,7 +12,7 @@ const whyCallItems = [
   {
     icon: "🚫",
     title: "No Sales Pressure",
-    desc: "This is a strategy call — not a pitch. If coaching is a fit, we'll both know.",
+    desc: "This is a strategy call, not a pitch. If coaching is a fit, we'll both know.",
   },
 ];
 

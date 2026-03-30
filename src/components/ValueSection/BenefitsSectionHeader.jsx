@@ -12,7 +12,7 @@ export default function BenefitsSectionHeader() {
         <span className="italic text-accent">Certain</span>
       </h2>
       <p className="text-gray-500 text-lg max-w-2xl mx-auto">
-        Each day builds on the last. By day 7, you won't just feel better — you'll have a real plan.
+        Each day builds on the last. By day 7, you won't just feel better, you'll have a real plan.
       </p>
     </div>
   );

@@ -4,7 +4,7 @@ import FunnelSequenceBanner from "./FunnelSequenceBanner";
 const objections = [
   {
     q: "What if I've been in the same job for years?",
-    a: "That's exactly who this is for. Your experience is an asset — we help you see why and how to leverage it.",
+    a: "That's exactly who this is for. Your experience is an asset, we help you see why and how to leverage it.",
   },
   {
     q: "I don't have time for a long program",
@@ -16,7 +16,7 @@ const objections = [
   },
   {
     q: "Is this just generic career advice?",
-    a: "No. The exercises are diagnostic and personalized. Your answers shape your specific clarity plan — it's not a template.",
+    a: "No. The exercises are diagnostic and personalized. Your answers shape your specific clarity plan, it's not a template.",
   },
 ];
 
@@ -29,7 +29,7 @@ export default function ObjectionSection() {
             "But what if..."
           </h2>
           <p className="text-gray-500 text-lg">
-            Every hesitation you have — we've heard it. Here's the honest answer.
+            Every hesitation you have, we've heard it. Here's the honest answer.
           </p>
         </div>
 
