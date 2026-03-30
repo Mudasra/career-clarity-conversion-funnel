@@ -25,7 +25,7 @@ export default function WhyCallList() {
           className="card-hover bg-white rounded-2xl p-5 border shadow-sm flex gap-4"
           style={{ borderColor: "#e0e5e9" }}
         >
-          <div className="text-3xl flex-shrink-0">{item.icon}</div>
+          <div className="text-3xl shrink-0">{item.icon}</div>
           <div>
             <h3 className="font-semibold text-primary text-sm mb-1">{item.title}</h3>
             <p className="text-gray-400 text-xs leading-relaxed">{item.desc}</p>
