@@ -6,7 +6,6 @@ export default function TestimonialCard({ name, role, outcome, text, avatar, sta
       className="card-hover relative bg-white rounded-3xl p-8 shadow-sm border border-secondary"
       style={{ borderColor: "#e0e5e9" }}
     >
-      {/* Quote mark */}
       <span
         className="absolute top-4 left-6 font-display text-6xl leading-none"
         style={{ color: "rgba(0,168,200,0.15)" }}
@@ -14,7 +13,6 @@ export default function TestimonialCard({ name, role, outcome, text, avatar, sta
         "
       </span>
 
-      {/* Stars */}
       <div className="flex justify-between items-start mb-4">
         <StarRating count={stars} />
         <span
@@ -25,10 +23,8 @@ export default function TestimonialCard({ name, role, outcome, text, avatar, sta
         </span>
       </div>
 
-      {/* Text */}
       <p className="text-gray-600 leading-relaxed mb-6 relative z-10 pt-2">"{text}"</p>
 
-      {/* Author */}
       <div
         className="flex items-center gap-4 pt-5 border-t"
         style={{ borderColor: "#e0e5e9" }}
