@@ -1,13 +1,12 @@
 
 import './App.css'
+import AppRouter from './routes/AppRouter'
 
 function App() {
 
   return (
  <div>
-   <h1 class="text-3xl font-bold underline">
-    Hello world!
-  </h1>
+   <AppRouter />
  </div>
   )
 }
