@@ -1,7 +1,7 @@
 import { useLocation } from "react-router-dom";
 import NavLogo from "./NavLogo";
 import NavActions from "./NavActions";
-import useNavbarScroll from "../../hooks/useNavBarScroll";
+import useNavbarScroll from "@hooks/useNavbarScroll";
 
 export default function Navbar() {
   const scrolled = useNavbarScroll(40);
