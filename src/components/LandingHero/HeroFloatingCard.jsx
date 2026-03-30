@@ -10,7 +10,6 @@ export default function HeroFloatingCard() {
   return (
     <div data-anim className="anim-delay-6 hidden lg:flex justify-center">
       <div className="relative">
-        {/* Main card */}
         <div className="animate-float bg-white/10 backdrop-blur-xl border border-white/20 rounded-3xl p-8 max-w-sm shadow-2xl">
           <div className="text-center mb-6">
             <div
@@ -43,7 +42,6 @@ export default function HeroFloatingCard() {
           </div>
         </div>
 
-        {/* Floating badge */}
         <div className="absolute -top-4 -right-4 bg-warm text-dark font-bold text-xs px-3 py-2 rounded-xl rotate-6 shadow-lg">
           🔥 127 grabbed this week
         </div>

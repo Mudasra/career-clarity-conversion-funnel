@@ -7,7 +7,6 @@ export default function HeroLeftContent({ onCTAClick }) {
     <div>
       <HeroHeadline />
 
-      {/* Sub-headline */}
       <p
         data-anim
         className="anim-delay-3 text-secondary/75 text-lg md:text-xl leading-relaxed mb-8"
