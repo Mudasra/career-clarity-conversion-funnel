@@ -1,6 +1,6 @@
 import { BrowserRouter, Route, Routes } from "react-router";
 import Navbar from "../components/Navbar/Navbar";
-import ThankYouPage from "../pages/ThankYouPage/ThankYouPage";
+import ThankYouPage from "../pages/ThankYouPage";
 import LandingPage from "../pages/LandingPage";
 
 export default function AppRouter () {
