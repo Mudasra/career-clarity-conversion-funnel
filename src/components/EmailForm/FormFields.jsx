@@ -1,7 +1,6 @@
 export default function FormFields({ register, errors }) {
   return (
     <div className="space-y-4">
-      {/* Name field */}
       <div>
         <label className="block text-secondary/80 text-sm font-medium mb-2">
           First Name <span className="text-secondary/40">(optional)</span>
@@ -14,7 +13,6 @@ export default function FormFields({ register, errors }) {
         />
       </div>
 
-      {/* Email field */}
       <div>
         <label className="block text-secondary/80 text-sm font-medium mb-2">
           Work Email <span className="text-red-400">*</span>

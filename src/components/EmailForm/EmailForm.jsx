@@ -55,7 +55,6 @@ export default function EmailForm() {
           loading={loading}
           onSubmit={handleSubmit(onSubmit)}
         />
-
         <p className="text-center text-secondary/40 text-sm mt-4">
           Join{" "}
           <strong className="text-secondary/60">2,400+ professionals</strong>{" "}
