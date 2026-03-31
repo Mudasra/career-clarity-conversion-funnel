@@ -3,15 +3,15 @@ import { useDispatch, useSelector } from "react-redux";
 import PickSlotStep from "./PickSlotStep";
 import BookingConfirmedView from "./BookingConfirmedView";
 import ConfirmationModal from "./ConfirmationModal";
-import { generateSlots } from "./generateSlots";
 import { confirmBooking } from "../../redux/slices/bookingSlice";
 import { submitBookingToCRM, trackEvent } from "../../utils/api";
 import QualificationForm from "../QualificationForm/QualificationForm";
+import { generateSlots } from "./Generateslots";
 
 const slots = generateSlots();
 
 export default function BookCall() {
-  const [step, setStep] = useState("qualify"); // qualify → pick → confirmed
+  const [step, setStep] = useState("qualify"); 
   const [selectedSlot, setSelectedSlot] = useState(null);
   const [confirmModal, setConfirmModal] = useState(null);
   const [loading, setLoading] = useState(false);

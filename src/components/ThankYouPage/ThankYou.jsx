@@ -6,7 +6,7 @@ import BookCallCTA from "./BookCallCTA";
 
 export default function ThankYou() {
   const { name, email } = useSelector((s) => s.leadForm);
-  const [spotsLeft] = useState(Math.floor(Math.random() * 3) + 3); // 3–5
+  const [spotsLeft] = useState(Math.floor(Math.random() * 3) + 3); 
   const [visible, setVisible] = useState(false);
 
   useEffect(() => {
