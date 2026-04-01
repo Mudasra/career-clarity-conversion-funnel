@@ -1,5 +1,12 @@
+import { MailOpen, Zap, CalendarDays } from "lucide-react";
 import { emailSequence } from "../../utils/constants";
 import EmailSequenceCard from "./EmailSequenceCard";
+
+const iconMap = {
+  MailOpen: <MailOpen size={20} strokeWidth={1.5} className="text-primary" />,
+  Zap: <Zap size={20} strokeWidth={1.5} className="text-primary" />,
+  CalendarDays: <CalendarDays size={20} strokeWidth={1.5} className="text-primary" />,
+};
 
 export default function EmailSequenceSection() {
   return (
@@ -11,7 +18,7 @@ export default function EmailSequenceSection() {
 
       <div className="space-y-4 mt-10">
         {emailSequence.map((e, i) => (
-          <EmailSequenceCard key={i} {...e} />
+          <EmailSequenceCard key={i} {...e} icon={iconMap[e.icon]} />
         ))}
       </div>
     </div>

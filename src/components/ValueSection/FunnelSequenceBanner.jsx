@@ -1,9 +1,11 @@
+import { MailOpen, Zap, CalendarDays } from "lucide-react";
+
 const funnelSteps = [
-  { day: "Day 0", label: "Get Plan Instantly", icon: "📬" },
+  { day: "Day 0", label: "Get Plan Instantly", icon: <MailOpen size={24} strokeWidth={1.5} /> },
   { label: "→", icon: null, spacer: true },
-  { day: "Day 1", label: "First Quick Win", icon: "⚡" },
+  { day: "Day 1", label: "First Quick Win", icon: <Zap size={24} strokeWidth={1.5} /> },
   { label: "→", icon: null, spacer: true },
-  { day: "Day 7", label: "Book Your Call", icon: "📅" },
+  { day: "Day 7", label: "Book Your Call", icon: <CalendarDays size={24} strokeWidth={1.5} /> },
 ];
 
 export default function FunnelSequenceBanner() {
@@ -31,7 +33,7 @@ export default function FunnelSequenceBanner() {
               </span>
             ) : (
               <div key={i} className="text-center px-3 py-2">
-                <div className="text-2xl mb-1">{step.icon}</div>
+                <div className="flex justify-center mb-1 text-secondary">{step.icon}</div>
                 <div className="text-xs text-secondary/50 font-medium">{step.day}</div>
                 <div className="text-white text-sm font-semibold">{step.label}</div>
               </div>

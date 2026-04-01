@@ -10,15 +10,25 @@ export default function EmailSequenceCard({ day, subject, preview, icon }) {
       >
         {icon}
       </div>
-      <div className="flex-1">
-        <div className="flex items-center gap-2 mb-0.5">
+      <div className="flex-1 flex justify-between flex-row items-center gap-4">
+  <span className="text-xs font-bold uppercase tracking-wider text-accent shrink-0">
+    {day}
+  </span>
+  <div>
+    <div className="font-semibold text-primary text-sm">{subject}</div>
+    <div className="text-gray-400 text-xs mt-0.5">{preview}</div>
+  </div>
+</div>
+
+      {/* <div className="flex-1">
+        <div className="flex  items-center gap-2 mb-0.5">
           <span className="text-xs font-bold uppercase tracking-wider text-accent">
             {day}
           </span>
         </div>
         <div className="font-semibold text-primary text-sm">{subject}</div>
         <div className="text-gray-400 text-xs mt-0.5">{preview}</div>
-      </div>
+      </div> */}
     </div>
   );
 }

@@ -1,3 +1,5 @@
+import { Check, CircleCheck, PartyPopper } from "lucide-react";
+
 export default function HeroSection({ name, email, visible }) {
   return (
     <div className="hero-bg py-24 px-6 text-center relative overflow-hidden">
@@ -20,7 +22,7 @@ export default function HeroSection({ name, email, visible }) {
             border: "2px solid rgba(6,214,160,0.4)",
           }}
         >
-          ✅
+          <CircleCheck size={36} color="white" strokeWidth={1.5} />
         </div>
 
         <div className="inline-flex items-center gap-2 bg-success/20 text-success rounded-full px-4 py-1.5 text-sm font-semibold mb-4">
@@ -29,7 +31,10 @@ export default function HeroSection({ name, email, visible }) {
         </div>
 
         <h1 className="font-display text-white text-4xl md:text-5xl font-bold leading-tight mb-4">
-          {name ? `You're in, ${name}!` : "You're in!"} 🎉
+          <span className="inline-flex items-center gap-3">
+  {name ? `You're in, ${name}!` : "You're in!"}
+  <PartyPopper size={36} strokeWidth={1.5} className="text-warm" />
+</span>
         </h1>
         <p className="text-secondary/70 text-lg mb-2">
           Your 7-Day Career Clarity Plan is heading to{" "}

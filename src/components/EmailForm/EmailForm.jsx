@@ -8,6 +8,7 @@ import FormCard from "./FormCard";
 import ToastNotification from "./ToastNotification";
 import { submitLeadToCRM, trackEvent } from "../../utils/api";
 import { setLeadData } from "../../redux/slices/leadFormSlice";
+import { PartyPopper } from "lucide-react";
 
 export default function EmailForm() {
   const { register, handleSubmit, formState: { errors } } = useForm();
@@ -28,8 +29,14 @@ export default function EmailForm() {
       await submitLeadToCRM(data);
       dispatch(setLeadData({ name: data.name, email: data.email }));
       trackEvent("lead_captured", { source: "landing_page_form" });
-      showToast("🎉 Your plan is on its way! Redirecting...");
+      showToast(
+  <span className="flex items-center gap-2">
+    <PartyPopper size={16} strokeWidth={1.5} />
+    Your plan is on its way! Redirecting...
+  </span>
+);
       setTimeout(() => navigate("/thank-you"), 1500);
+
     } catch {
       showToast("Something went wrong. Please try again.", "error");
     } finally {

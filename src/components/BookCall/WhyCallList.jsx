@@ -1,16 +1,18 @@
+import { Target, Zap, Ban } from "lucide-react";
+
 const whyCallItems = [
   {
-    icon: "🎯",
+    icon: <Target size={24} strokeWidth={1.5} className="text-accent shrink-0" />,
     title: "Personalized, Not Generic",
     desc: "We review YOUR situation, not a template. Every call is unique.",
   },
   {
-    icon: "⚡",
+    icon: <Zap size={24} strokeWidth={1.5} className="text-accent shrink-0" />,
     title: "Clarity in 30 Minutes",
     desc: "Most people leave the call with their #1 next step finally clear.",
   },
   {
-    icon: "🚫",
+    icon: <Ban size={24} strokeWidth={1.5} className="text-accent shrink-0" />,
     title: "No Sales Pressure",
     desc: "This is a strategy call, not a pitch. If coaching is a fit, we'll both know.",
   },

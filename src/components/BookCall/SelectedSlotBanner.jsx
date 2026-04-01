@@ -1,3 +1,5 @@
+import { CalendarDays } from "lucide-react";
+
 export default function SelectedSlotBanner({ selectedSlot }) {
   if (!selectedSlot) return null;
 
@@ -9,8 +11,7 @@ export default function SelectedSlotBanner({ selectedSlot }) {
         border: "1px solid rgba(0,168,200,0.2)",
       }}
     >
-      <span className="text-accent text-xl">📅</span>
-      <div>
+<CalendarDays size={20} strokeWidth={1.5} className="text-accent shrink-0" />      <div>
         <strong className="text-primary">{selectedSlot.day}</strong> at{" "}
         <strong className="text-accent">{selectedSlot.time}</strong>
         {" "}· 30 min · Free Strategy Call
