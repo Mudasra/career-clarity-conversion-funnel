@@ -22,7 +22,7 @@ export default function PickSlotStep({ grouped, selectedSlot, onSelectSlot, onBo
       <button
         onClick={onBook}
         disabled={!selectedSlot || loading}
-        className="w-full btn-shimmer text-white font-bold text-base py-4 rounded-xl hover:scale-[1.02] active:scale-[0.98] transition-transform shadow-lg disabled:opacity-50 disabled:cursor-not-allowed disabled:transform-none"
+        className="w-full cursor-pointer btn-shimmer text-white font-bold text-base py-4 rounded-xl hover:scale-[1.02] active:scale-[0.98] transition-transform shadow-lg disabled:opacity-50 disabled:cursor-not-allowed disabled:transform-none"
       >
         {loading ? "Confirming..." : "Confirm My Free Strategy Call →"}
       </button>
